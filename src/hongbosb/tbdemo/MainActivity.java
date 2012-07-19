@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 
     private String loadContent() {
         try {
-            URL url = new URL("http://192.168.1.104:8888");
+            URL url = new URL(Config.SERVER_IP);
             HttpURLConnection conn = (HttpURLConnection)url.openConnection();
             BufferedInputStream in = new BufferedInputStream(conn.getInputStream());
             BufferedReader reader = new BufferedReader(new InputStreamReader(in));
