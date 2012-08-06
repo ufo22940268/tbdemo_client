@@ -1,0 +1,411 @@
+	Session.vim	/^cnoremap  <Home>$/;"	m
+	tests/Session.vim	/^cnoremap  <Home>$/;"	m
+	Session.vim	/^cnoremap  <End>$/;"	m
+	tests/Session.vim	/^cnoremap  <End>$/;"	m
+		Session.vim	/^inoremap <silent> 	 =TriggerSnippet()$/;"	m
+		tests/Session.vim	/^inoremap <silent> 	 =TriggerSnippet()$/;"	m
+	Session.vim	/^map   \/$/;"	m
+	tests/Session.vim	/^map   \/$/;"	m
+	Session.vim	/^cnoremap  $/;"	m
+	tests/Session.vim	/^cnoremap  $/;"	m
+	Session.vim	/^nmap  :JavaBrowser$/;"	m
+	tests/Session.vim	/^nmap  :JavaBrowser$/;"	m
+		Session.vim	/^inoremap <silent> 	 =ShowAvailableSnips()$/;"	m
+		tests/Session.vim	/^inoremap <silent> 	 =ShowAvailableSnips()$/;"	m
+	Session.vim	/^map  :WMToggle$/;"	m
+	tests/Session.vim	/^map  :WMToggle$/;"	m
+c	Session.vim	/^nmap c :cs find c =expand("<cword>")$/;"	m
+c	tests/Session.vim	/^nmap c :cs find c =expand("<cword>")$/;"	m
+d	Session.vim	/^nmap d :cs find d =expand("<cword>")$/;"	m
+d	tests/Session.vim	/^nmap d :cs find d =expand("<cword>")$/;"	m
+e	Session.vim	/^nmap e :cs find e =expand("<cword>")$/;"	m
+e	tests/Session.vim	/^nmap e :cs find e =expand("<cword>")$/;"	m
+f	Session.vim	/^nmap f :cs find f =expand("<cfile>")$/;"	m
+f	tests/Session.vim	/^nmap f :cs find f =expand("<cfile>")$/;"	m
+g	Session.vim	/^nmap g :cs find g =expand("<cword>")$/;"	m
+g	tests/Session.vim	/^nmap g :cs find g =expand("<cword>")$/;"	m
+i	Session.vim	/^nmap i :cs find i ^=expand("<cfile>")$/;"	m
+i	tests/Session.vim	/^nmap i :cs find i ^=expand("<cfile>")$/;"	m
+s	Session.vim	/^nmap s :cs find s =expand("<cword>")$/;"	m
+s	tests/Session.vim	/^nmap s :cs find s =expand("<cword>")$/;"	m
+t	Session.vim	/^nmap t :cs find t =expand("<cword>")$/;"	m
+t	tests/Session.vim	/^nmap t :cs find t =expand("<cword>")$/;"	m
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$<	Session.vim	/^vnoremap $< `>a -->`<i<!-- $/;"	m
+$<	tests/Session.vim	/^vnoremap $< `>a -->`<i<!-- $/;"	m
+$$	Session.vim	/^vnoremap $$ `>a"`<i"$/;"	m
+$$	tests/Session.vim	/^vnoremap $$ `>a"`<i"$/;"	m
+$/	Session.vim	/^vnoremap $\/ `>a*\/`<i\/*$/;"	m
+$/	tests/Session.vim	/^vnoremap $\/ `>a*\/`<i\/*$/;"	m
+$1	Session.vim	/^vnoremap $1 `>a)`<i($/;"	m
+$1	tests/Session.vim	/^vnoremap $1 `>a)`<i($/;"	m
+$2	Session.vim	/^vnoremap $2 `>a]`<i[$/;"	m
+$2	tests/Session.vim	/^vnoremap $2 `>a]`<i[$/;"	m
+$3	Session.vim	/^vnoremap $3 `>a}`<i{$/;"	m
+$3	tests/Session.vim	/^vnoremap $3 `>a}`<i{$/;"	m
+$q	Session.vim	/^vnoremap $q `>a'`<i'$/;"	m
+$q	tests/Session.vim	/^vnoremap $q `>a'`<i'$/;"	m
+$td	Session.vim	/^cnoremap $td tabnew ~\/Desktop\/$/;"	m
+$td	tests/Session.vim	/^cnoremap $td tabnew ~\/Desktop\/$/;"	m
+$th	Session.vim	/^cnoremap $th tabnew ~\/$/;"	m
+$th	tests/Session.vim	/^cnoremap $th tabnew ~\/$/;"	m
+$w	Session.vim	/^vnoremap $w `>a"`<i"$/;"	m
+$w	tests/Session.vim	/^vnoremap $w `>a"`<i"$/;"	m
+,$	Session.vim	/^map ,$ :syntax sync fromstart$/;"	m
+,$	tests/Session.vim	/^map ,$ :syntax sync fromstart$/;"	m
+,0	Session.vim	/^nnoremap ,0 :10b$/;"	m
+,0	tests/Session.vim	/^nnoremap ,0 :10b$/;"	m
+,1	Session.vim	/^map ,1 :set syntax=cheetah$/;"	m
+,1	tests/Session.vim	/^map ,1 :set syntax=cheetah$/;"	m
+,2	Session.vim	/^map ,2 :set syntax=xhtml$/;"	m
+,2	tests/Session.vim	/^map ,2 :set syntax=xhtml$/;"	m
+,3	Session.vim	/^nnoremap ,3 :3b$/;"	m
+,3	Session.vim	/^omap ,3 :set syntax=python$/;"	m
+,3	Session.vim	/^vmap ,3 :set syntax=python$/;"	m
+,3	tests/Session.vim	/^nnoremap ,3 :3b$/;"	m
+,3	tests/Session.vim	/^omap ,3 :set syntax=python$/;"	m
+,3	tests/Session.vim	/^vmap ,3 :set syntax=python$/;"	m
+,4	Session.vim	/^nnoremap ,4 :4b$/;"	m
+,4	Session.vim	/^omap ,4 :set ft=javascript$/;"	m
+,4	Session.vim	/^vmap ,4 :set ft=javascript$/;"	m
+,4	tests/Session.vim	/^nnoremap ,4 :4b$/;"	m
+,4	tests/Session.vim	/^omap ,4 :set ft=javascript$/;"	m
+,4	tests/Session.vim	/^vmap ,4 :set ft=javascript$/;"	m
+,5	Session.vim	/^nnoremap ,5 :5b$/;"	m
+,5	tests/Session.vim	/^nnoremap ,5 :5b$/;"	m
+,6	Session.vim	/^nnoremap ,6 :6b$/;"	m
+,6	tests/Session.vim	/^nnoremap ,6 :6b$/;"	m
+,7	Session.vim	/^nnoremap ,7 :7b$/;"	m
+,7	tests/Session.vim	/^nnoremap ,7 :7b$/;"	m
+,8	Session.vim	/^nnoremap ,8 :8b$/;"	m
+,8	tests/Session.vim	/^nnoremap ,8 :8b$/;"	m
+,9	Session.vim	/^nnoremap ,9 :9b$/;"	m
+,9	tests/Session.vim	/^nnoremap ,9 :9b$/;"	m
+,ac	Session.vim	/^map ,ac :!adb_connect&&adb logcat -c$/;"	m
+,ac	tests/Session.vim	/^map ,ac :!adb_connect&&adb logcat -c$/;"	m
+,al	Session.vim	/^map ,al :!adb_connect&&adb logcat$/;"	m
+,al	tests/Session.vim	/^map ,al :!adb_connect&&adb logcat$/;"	m
+,b	Session.vim	/^nnoremap <silent> ,b :CommandTBuffer$/;"	m
+,b	tests/Session.vim	/^nnoremap <silent> ,b :CommandTBuffer$/;"	m
+,bc	Session.vim	/^noremap <silent> ,bc :!find -name *.java > cscope.files && cscope -b -q$/;"	m
+,bc	tests/Session.vim	/^noremap <silent> ,bc :!find -name *.java > cscope.files && cscope -b -q$/;"	m
+,cD	Session.vim	/^nmap <silent> ,cD <Plug>VCSDelete$/;"	m
+,cD	tests/Session.vim	/^nmap <silent> ,cD <Plug>VCSDelete$/;"	m
+,cG	Session.vim	/^nmap <silent> ,cG <Plug>VCSClearAndGotoOriginal$/;"	m
+,cG	tests/Session.vim	/^nmap <silent> ,cG <Plug>VCSClearAndGotoOriginal$/;"	m
+,cL	Session.vim	/^nmap <silent> ,cL <Plug>VCSLock$/;"	m
+,cL	tests/Session.vim	/^nmap <silent> ,cL <Plug>VCSLock$/;"	m
+,cN	Session.vim	/^nmap <silent> ,cN <Plug>VCSSplitAnnotate$/;"	m
+,cN	tests/Session.vim	/^nmap <silent> ,cN <Plug>VCSSplitAnnotate$/;"	m
+,cU	Session.vim	/^nmap <silent> ,cU <Plug>VCSUnlock$/;"	m
+,cU	tests/Session.vim	/^nmap <silent> ,cU <Plug>VCSUnlock$/;"	m
+,ca	Session.vim	/^nmap <silent> ,ca <Plug>VCSAdd$/;"	m
+,ca	tests/Session.vim	/^nmap <silent> ,ca <Plug>VCSAdd$/;"	m
+,caL	Session.vim	/^nmap ,caL <Plug>CalendarH$/;"	m
+,caL	tests/Session.vim	/^nmap ,caL <Plug>CalendarH$/;"	m
+,cal	Session.vim	/^nmap ,cal <Plug>CalendarV$/;"	m
+,cal	tests/Session.vim	/^nmap ,cal <Plug>CalendarV$/;"	m
+,cc	Session.vim	/^nmap <silent> ,cc <Plug>VCSCommit$/;"	m
+,cc	tests/Session.vim	/^nmap <silent> ,cc <Plug>VCSCommit$/;"	m
+,cd	Session.vim	/^map ,cd :cd %:p:h$/;"	m
+,cd	tests/Session.vim	/^map ,cd :cd %:p:h$/;"	m
+,cg	Session.vim	/^nmap <silent> ,cg <Plug>VCSGotoOriginal$/;"	m
+,cg	tests/Session.vim	/^nmap <silent> ,cg <Plug>VCSGotoOriginal$/;"	m
+,ci	Session.vim	/^nmap <silent> ,ci <Plug>VCSInfo$/;"	m
+,ci	tests/Session.vim	/^nmap <silent> ,ci <Plug>VCSInfo$/;"	m
+,cl	Session.vim	/^nmap <silent> ,cl <Plug>VCSLog$/;"	m
+,cl	tests/Session.vim	/^nmap <silent> ,cl <Plug>VCSLog$/;"	m
+,cn	Session.vim	/^nmap <silent> ,cn <Plug>VCSAnnotate$/;"	m
+,cn	tests/Session.vim	/^nmap <silent> ,cn <Plug>VCSAnnotate$/;"	m
+,cq	Session.vim	/^nmap <silent> ,cq <Plug>VCSRevert$/;"	m
+,cq	tests/Session.vim	/^nmap <silent> ,cq <Plug>VCSRevert$/;"	m
+,cr	Session.vim	/^nmap <silent> ,cr <Plug>VCSReview$/;"	m
+,cr	tests/Session.vim	/^nmap <silent> ,cr <Plug>VCSReview$/;"	m
+,cs	Session.vim	/^nmap <silent> ,cs <Plug>VCSStatus$/;"	m
+,cs	tests/Session.vim	/^nmap <silent> ,cs <Plug>VCSStatus$/;"	m
+,cu	Session.vim	/^nmap <silent> ,cu <Plug>VCSUpdate$/;"	m
+,cu	tests/Session.vim	/^nmap <silent> ,cu <Plug>VCSUpdate$/;"	m
+,cv	Session.vim	/^nmap <silent> ,cv <Plug>VCSVimDiff$/;"	m
+,cv	tests/Session.vim	/^nmap <silent> ,cv <Plug>VCSVimDiff$/;"	m
+,dd	Session.vim	/^noremap ,dd :call StartDebug()$/;"	m
+,dd	tests/Session.vim	/^noremap ,dd :call StartDebug()$/;"	m
+,di	Session.vim	/^noremap ,di :call DebugInnerContacts()$/;"	m
+,di	tests/Session.vim	/^noremap ,di :call DebugInnerContacts()$/;"	m
+,fd	Session.vim	/^nmap ,fd :se ff=dos$/;"	m
+,fd	tests/Session.vim	/^nmap ,fd :se ff=dos$/;"	m
+,fu	Session.vim	/^nmap ,fu :se ff=unix$/;"	m
+,fu	tests/Session.vim	/^nmap ,fu :se ff=unix$/;"	m
+,m	Session.vim	/^noremap ,m :%s\/\\r\/\/g$/;"	m
+,m	tests/Session.vim	/^noremap ,m :%s\/\\r\/\/g$/;"	m
+,q	Session.vim	/^map ,q :e ~\/buffer$/;"	m
+,q	tests/Session.vim	/^map ,q :e ~\/buffer$/;"	m
+,rr	Session.vim	/^nmap ,rr :call ReloadSnippets(snippets_dir, &filetype)$/;"	m
+,rr	tests/Session.vim	/^nmap ,rr :call ReloadSnippets(snippets_dir, &filetype)$/;"	m
+,s	Session.vim	/^map ,s :so ~\/.vimrc$/;"	m
+,s	tests/Session.vim	/^map ,s :so ~\/.vimrc$/;"	m
+,s?	Session.vim	/^map ,s? z=$/;"	m
+,s?	tests/Session.vim	/^map ,s? z=$/;"	m
+,sa	Session.vim	/^map ,sa zg$/;"	m
+,sa	tests/Session.vim	/^map ,sa zg$/;"	m
+,scd	Session.vim	/^nmap ,scd <Plug>SQLUGetColumnDef$/;"	m
+,scd	tests/Session.vim	/^nmap ,scd <Plug>SQLUGetColumnDef$/;"	m
+,scdt	Session.vim	/^nmap ,scdt <Plug>SQLUGetColumnDataType$/;"	m
+,scdt	tests/Session.vim	/^nmap ,scdt <Plug>SQLUGetColumnDataType$/;"	m
+,scl	Session.vim	/^nmap ,scl <Plug>SQLUCreateColumnList$/;"	m
+,scl	tests/Session.vim	/^nmap ,scl <Plug>SQLUCreateColumnList$/;"	m
+,scp	Session.vim	/^nmap ,scp <Plug>SQLUCreateProcedure$/;"	m
+,scp	tests/Session.vim	/^nmap ,scp <Plug>SQLUCreateProcedure$/;"	m
+,sf	Session.vim	/^nmap ,sf <Plug>SQLUFormatter$/;"	m
+,sf	Session.vim	/^vmap ,sf <Plug>SQLUFormatter$/;"	m
+,sf	tests/Session.vim	/^nmap ,sf <Plug>SQLUFormatter$/;"	m
+,sf	tests/Session.vim	/^vmap ,sf <Plug>SQLUFormatter$/;"	m
+,sfr	Session.vim	/^nmap ,sfr <Plug>SQLUFormatStmts$/;"	m
+,sfr	Session.vim	/^vmap ,sfr <Plug>SQLUFormatStmts$/;"	m
+,sfr	tests/Session.vim	/^nmap ,sfr <Plug>SQLUFormatStmts$/;"	m
+,sfr	tests/Session.vim	/^vmap ,sfr <Plug>SQLUFormatStmts$/;"	m
+,sfs	Session.vim	/^nmap ,sfs <Plug>SQLUFormatter$/;"	m
+,sfs	Session.vim	/^vmap ,sfs <Plug>SQLUFormatter$/;"	m
+,sfs	tests/Session.vim	/^nmap ,sfs <Plug>SQLUFormatter$/;"	m
+,sfs	tests/Session.vim	/^vmap ,sfs <Plug>SQLUFormatter$/;"	m
+,sn	Session.vim	/^map ,sn ]$/;"	m
+,sn	tests/Session.vim	/^map ,sn ]$/;"	m
+,sp	Session.vim	/^map ,sp [$/;"	m
+,sp	tests/Session.vim	/^map ,sp [$/;"	m
+,t	Session.vim	/^nnoremap <silent> ,t :CommandT$/;"	m
+,t	tests/Session.vim	/^nnoremap <silent> ,t :CommandT$/;"	m
+,tc	Session.vim	/^noremap ,tc :!adb_connect$/;"	m
+,tc	tests/Session.vim	/^noremap ,tc :!adb_connect$/;"	m
+,ti	Session.vim	/^map ,ti :!adb shell am instrument -w hongbosb.tbdemo.tests\/android.test.InstrumentationTestRunner$/;"	m
+,ti	tests/Session.vim	/^map ,ti :!adb shell am instrument -w hongbosb.tbdemo.tests\/android.test.InstrumentationTestRunner$/;"	m
+,tl	Session.vim	/^map ,tl :!adb shell am start -n  hongbosb.tbdemo\/.MainActivity $/;"	m
+,tl	tests/Session.vim	/^map ,tl :!adb shell am start -n  hongbosb.tbdemo\/.MainActivity $/;"	m
+,tr	Session.vim	/^noremap ,tr :!adb_connect&&adb shell stop && adb shell start$/;"	m
+,tr	tests/Session.vim	/^noremap ,tr :!adb_connect&&adb shell stop && adb shell start$/;"	m
+,ts	Session.vim	/^noremap ,ts :!target_sync$/;"	m
+,ts	tests/Session.vim	/^noremap ,ts :!target_sync$/;"	m
+,v	Session.vim	/^map ,v :e ~\/.vimrc$/;"	m
+,v	tests/Session.vim	/^map ,v :e ~\/.vimrc$/;"	m
+,vcs	Session.vim	/^noremap ,vcs :e res\/values-zh-rCN\/strings.xml$/;"	m
+,vcs	tests/Session.vim	/^noremap ,vcs :e res\/values-zh-rCN\/strings.xml$/;"	m
+,ves	Session.vim	/^noremap ,ves :e res\/values\/strings.xml$/;"	m
+,ves	tests/Session.vim	/^noremap ,ves :e res\/values\/strings.xml$/;"	m
+,vjs	Session.vim	/^map ,vjs :sp ~\/.vim\/snippets\/java.snippets$/;"	m
+,vjs	tests/Session.vim	/^map ,vjs :sp ~\/.vim\/snippets\/java.snippets$/;"	m
+,vp	Session.vim	/^map <silent> ,vp :!xdg-open %$/;"	m
+,vp	tests/Session.vim	/^map <silent> ,vp :!xdg-open %$/;"	m
+,vxs	Session.vim	/^map ,vxs :sp ~\/.vim\/snippets\/xml.snippets$/;"	m
+,vxs	tests/Session.vim	/^map ,vxs :sp ~\/.vim\/snippets\/xml.snippets$/;"	m
+,w	Session.vim	/^nmap ,w :w!$/;"	m
+,w	tests/Session.vim	/^nmap ,w :w!$/;"	m
+,x	Session.vim	/^nmap ,x :xa!$/;"	m
+,x	tests/Session.vim	/^nmap ,x :xa!$/;"	m
+,y	Session.vim	/^map ,y :YRShow$/;"	m
+,y	tests/Session.vim	/^map ,y :YRShow$/;"	m
+,z	Session.vim	/^map ,z <Plug>ZoomWin$/;"	m
+,z	tests/Session.vim	/^map ,z <Plug>ZoomWin$/;"	m
+0	Session.vim	/^map 0 ^$/;"	m
+0	tests/Session.vim	/^map 0 ^$/;"	m
+011l	tests/Session.vim	/^normal! 011l$/;"	m
+025l	Session.vim	/^normal! 025l$/;"	m
+<F11>	Session.vim	/^nnoremap <silent> <F11> :call conque_term#exec_file()$/;"	m
+<F11>	tests/Session.vim	/^nnoremap <silent> <F11> :call conque_term#exec_file()$/;"	m
+<F2>	Session.vim	/^map <F2> :NERDTreeToggle$/;"	m
+<F2>	tests/Session.vim	/^map <F2> :NERDTreeToggle$/;"	m
+<F3>	Session.vim	/^map <F3> :Tlist$/;"	m
+<F3>	tests/Session.vim	/^map <F3> :Tlist$/;"	m
+<F5>	Session.vim	/^map <silent> <F5> :!ctags -R --language-force=java --exclude=\\.* $/;"	m
+<F5>	tests/Session.vim	/^map <silent> <F5> :!find ..\/ -name *.java | xargs ctags --language-force=java$/;"	m
+<F9>	Session.vim	/^map <F9> ggVGg?$/;"	m
+<F9>	tests/Session.vim	/^map <F9> ggVGg?$/;"	m
+<Nul><Nul>c	Session.vim	/^nmap <Nul><Nul>c :vert scs find c =expand("<cword>")$/;"	m
+<Nul><Nul>c	tests/Session.vim	/^nmap <Nul><Nul>c :vert scs find c =expand("<cword>")$/;"	m
+<Nul><Nul>d	Session.vim	/^nmap <Nul><Nul>d :vert scs find d =expand("<cword>")$/;"	m
+<Nul><Nul>d	tests/Session.vim	/^nmap <Nul><Nul>d :vert scs find d =expand("<cword>")$/;"	m
+<Nul><Nul>e	Session.vim	/^nmap <Nul><Nul>e :vert scs find e =expand("<cword>")$/;"	m
+<Nul><Nul>e	tests/Session.vim	/^nmap <Nul><Nul>e :vert scs find e =expand("<cword>")$/;"	m
+<Nul><Nul>f	Session.vim	/^nmap <Nul><Nul>f :vert scs find f =expand("<cfile>")$/;"	m
+<Nul><Nul>f	tests/Session.vim	/^nmap <Nul><Nul>f :vert scs find f =expand("<cfile>")$/;"	m
+<Nul><Nul>g	Session.vim	/^nmap <Nul><Nul>g :vert scs find g =expand("<cword>")$/;"	m
+<Nul><Nul>g	tests/Session.vim	/^nmap <Nul><Nul>g :vert scs find g =expand("<cword>")$/;"	m
+<Nul><Nul>i	Session.vim	/^nmap <Nul><Nul>i :vert scs find i ^=expand("<cfile>")$/;"	m
+<Nul><Nul>i	tests/Session.vim	/^nmap <Nul><Nul>i :vert scs find i ^=expand("<cfile>")$/;"	m
+<Nul><Nul>s	Session.vim	/^nmap <Nul><Nul>s :vert scs find s =expand("<cword>")$/;"	m
+<Nul><Nul>s	tests/Session.vim	/^nmap <Nul><Nul>s :vert scs find s =expand("<cword>")$/;"	m
+<Nul><Nul>t	Session.vim	/^nmap <Nul><Nul>t :vert scs find t =expand("<cword>")$/;"	m
+<Nul><Nul>t	tests/Session.vim	/^nmap <Nul><Nul>t :vert scs find t =expand("<cword>")$/;"	m
+<Nul>c	Session.vim	/^nmap <Nul>c :scs find c =expand("<cword>")$/;"	m
+<Nul>c	tests/Session.vim	/^nmap <Nul>c :scs find c =expand("<cword>")$/;"	m
+<Nul>d	Session.vim	/^nmap <Nul>d :scs find d =expand("<cword>")$/;"	m
+<Nul>d	tests/Session.vim	/^nmap <Nul>d :scs find d =expand("<cword>")$/;"	m
+<Nul>e	Session.vim	/^nmap <Nul>e :scs find e =expand("<cword>")$/;"	m
+<Nul>e	tests/Session.vim	/^nmap <Nul>e :scs find e =expand("<cword>")$/;"	m
+<Nul>f	Session.vim	/^nmap <Nul>f :scs find f =expand("<cfile>")$/;"	m
+<Nul>f	tests/Session.vim	/^nmap <Nul>f :scs find f =expand("<cfile>")$/;"	m
+<Nul>g	Session.vim	/^nmap <Nul>g :scs find g =expand("<cword>")$/;"	m
+<Nul>g	tests/Session.vim	/^nmap <Nul>g :scs find g =expand("<cword>")$/;"	m
+<Nul>i	Session.vim	/^nmap <Nul>i :scs find i ^=expand("<cfile>")$/;"	m
+<Nul>i	tests/Session.vim	/^nmap <Nul>i :scs find i ^=expand("<cfile>")$/;"	m
+<Nul>s	Session.vim	/^nmap <Nul>s :scs find s =expand("<cword>")$/;"	m
+<Nul>s	tests/Session.vim	/^nmap <Nul>s :scs find s =expand("<cword>")$/;"	m
+<Nul>t	Session.vim	/^nmap <Nul>t :scs find t =expand("<cword>")$/;"	m
+<Nul>t	tests/Session.vim	/^nmap <Nul>t :scs find t =expand("<cword>")$/;"	m
+<Plug>CalendarH	Session.vim	/^nnoremap <silent> <Plug>CalendarH :cal Calendar(1)$/;"	m
+<Plug>CalendarH	tests/Session.vim	/^nnoremap <silent> <Plug>CalendarH :cal Calendar(1)$/;"	m
+<Plug>CalendarV	Session.vim	/^nnoremap <silent> <Plug>CalendarV :cal Calendar(0)$/;"	m
+<Plug>CalendarV	tests/Session.vim	/^nnoremap <silent> <Plug>CalendarV :cal Calendar(0)$/;"	m
+<Plug>NetrwBrowseX	Session.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<Plug>NetrwBrowseX	tests/Session.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<Plug>VCSAdd	Session.vim	/^nnoremap <silent> <Plug>VCSAdd :VCSAdd$/;"	m
+<Plug>VCSAdd	tests/Session.vim	/^nnoremap <silent> <Plug>VCSAdd :VCSAdd$/;"	m
+<Plug>VCSAnnotate	Session.vim	/^nnoremap <silent> <Plug>VCSAnnotate :VCSAnnotate$/;"	m
+<Plug>VCSAnnotate	tests/Session.vim	/^nnoremap <silent> <Plug>VCSAnnotate :VCSAnnotate$/;"	m
+<Plug>VCSClearAndGotoOriginal	Session.vim	/^nnoremap <silent> <Plug>VCSClearAndGotoOriginal :VCSGotoOriginal!$/;"	m
+<Plug>VCSClearAndGotoOriginal	tests/Session.vim	/^nnoremap <silent> <Plug>VCSClearAndGotoOriginal :VCSGotoOriginal!$/;"	m
+<Plug>VCSCommit	Session.vim	/^nnoremap <silent> <Plug>VCSCommit :VCSCommit$/;"	m
+<Plug>VCSCommit	tests/Session.vim	/^nnoremap <silent> <Plug>VCSCommit :VCSCommit$/;"	m
+<Plug>VCSDelete	Session.vim	/^nnoremap <silent> <Plug>VCSDelete :VCSDelete$/;"	m
+<Plug>VCSDelete	tests/Session.vim	/^nnoremap <silent> <Plug>VCSDelete :VCSDelete$/;"	m
+<Plug>VCSDiff	Session.vim	/^nnoremap <silent> <Plug>VCSDiff :VCSDiff$/;"	m
+<Plug>VCSDiff	tests/Session.vim	/^nnoremap <silent> <Plug>VCSDiff :VCSDiff$/;"	m
+<Plug>VCSGotoOriginal	Session.vim	/^nnoremap <silent> <Plug>VCSGotoOriginal :VCSGotoOriginal$/;"	m
+<Plug>VCSGotoOriginal	tests/Session.vim	/^nnoremap <silent> <Plug>VCSGotoOriginal :VCSGotoOriginal$/;"	m
+<Plug>VCSInfo	Session.vim	/^nnoremap <silent> <Plug>VCSInfo :VCSInfo$/;"	m
+<Plug>VCSInfo	tests/Session.vim	/^nnoremap <silent> <Plug>VCSInfo :VCSInfo$/;"	m
+<Plug>VCSLock	Session.vim	/^nnoremap <silent> <Plug>VCSLock :VCSLock$/;"	m
+<Plug>VCSLock	tests/Session.vim	/^nnoremap <silent> <Plug>VCSLock :VCSLock$/;"	m
+<Plug>VCSLog	Session.vim	/^nnoremap <silent> <Plug>VCSLog :VCSLog$/;"	m
+<Plug>VCSLog	tests/Session.vim	/^nnoremap <silent> <Plug>VCSLog :VCSLog$/;"	m
+<Plug>VCSRevert	Session.vim	/^nnoremap <silent> <Plug>VCSRevert :VCSRevert$/;"	m
+<Plug>VCSRevert	tests/Session.vim	/^nnoremap <silent> <Plug>VCSRevert :VCSRevert$/;"	m
+<Plug>VCSReview	Session.vim	/^nnoremap <silent> <Plug>VCSReview :VCSReview$/;"	m
+<Plug>VCSReview	tests/Session.vim	/^nnoremap <silent> <Plug>VCSReview :VCSReview$/;"	m
+<Plug>VCSSplitAnnotate	Session.vim	/^nnoremap <silent> <Plug>VCSSplitAnnotate :VCSAnnotate!$/;"	m
+<Plug>VCSSplitAnnotate	tests/Session.vim	/^nnoremap <silent> <Plug>VCSSplitAnnotate :VCSAnnotate!$/;"	m
+<Plug>VCSStatus	Session.vim	/^nnoremap <silent> <Plug>VCSStatus :VCSStatus$/;"	m
+<Plug>VCSStatus	tests/Session.vim	/^nnoremap <silent> <Plug>VCSStatus :VCSStatus$/;"	m
+<Plug>VCSUnlock	Session.vim	/^nnoremap <silent> <Plug>VCSUnlock :VCSUnlock$/;"	m
+<Plug>VCSUnlock	tests/Session.vim	/^nnoremap <silent> <Plug>VCSUnlock :VCSUnlock$/;"	m
+<Plug>VCSUpdate	Session.vim	/^nnoremap <silent> <Plug>VCSUpdate :VCSUpdate$/;"	m
+<Plug>VCSUpdate	tests/Session.vim	/^nnoremap <silent> <Plug>VCSUpdate :VCSUpdate$/;"	m
+<Plug>VCSVimDiff	Session.vim	/^nnoremap <silent> <Plug>VCSVimDiff :VCSVimDiff$/;"	m
+<Plug>VCSVimDiff	tests/Session.vim	/^nnoremap <silent> <Plug>VCSVimDiff :VCSVimDiff$/;"	m
+<S-Tab>	Session.vim	/^inoremap <silent> <S-Tab> =BackwardsSnippet()$/;"	m
+<S-Tab>	tests/Session.vim	/^inoremap <silent> <S-Tab> =BackwardsSnippet()$/;"	m
+BuildConfig	gen/hongbosb/tbdemo/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+BuildConfig	tests/gen/hongbosb/tbdemo/tests/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+Config	src/hongbosb/tbdemo/Config.java	/^public class Config {$/;"	c
+DEBUG	gen/hongbosb/tbdemo/BuildConfig.java	/^    public final static boolean DEBUG = true;$/;"	f	class:BuildConfig
+DEBUG	tests/gen/hongbosb/tbdemo/tests/BuildConfig.java	/^    public final static boolean DEBUG = true;$/;"	f	class:BuildConfig
+FileCache	src/hongbosb/tbdemo/FileCache.java	/^public class FileCache {$/;"	c
+FlowAdapter	src/hongbosb/tbdemo/MainActivity.java	/^    private class FlowAdapter extends BaseAdapter {$/;"	c	class:MainActivity
+ImageLoader	src/hongbosb/tbdemo/ImageLoader.java	/^    public ImageLoader(Activity activity) {$/;"	m	class:ImageLoader
+ImageLoader	src/hongbosb/tbdemo/ImageLoader.java	/^public class ImageLoader {$/;"	c
+JsonParser	src/hongbosb/tbdemo/JsonParser.java	/^    public JsonParser(String content) {$/;"	m	class:JsonParser
+JsonParser	src/hongbosb/tbdemo/JsonParser.java	/^public class JsonParser {$/;"	c
+LOCAL_CERTIFICATE	Android.mk	/^LOCAL_CERTIFICATE := shared$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PACKAGE_NAME	Android.mk	/^LOCAL_PACKAGE_NAME := tbdemo$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := $(call all-java-files-under, src)$/;"	m
+LazyAdapter	src/hongbosb/tbdemo/LazyAdapter.java	/^    public LazyAdapter(Activity a, String[] strs) {$/;"	m	class:LazyAdapter
+LazyAdapter	src/hongbosb/tbdemo/LazyAdapter.java	/^class LazyAdapter extends BaseAdapter {$/;"	c
+LoadHandler	src/hongbosb/tbdemo/ImageLoader.java	/^        public LoadHandler(ImageView image, String url) {$/;"	m	class:ImageLoader.LoadHandler
+LoadHandler	src/hongbosb/tbdemo/ImageLoader.java	/^    class LoadHandler implements Runnable {$/;"	c	class:ImageLoader
+MainActivity	src/hongbosb/tbdemo/MainActivity.java	/^public class MainActivity extends Activity {$/;"	c
+MainActivityTest	tests/src/hongbosb/tbdemo/MainActivityTest.java	/^    public MainActivityTest() {$/;"	m	class:MainActivityTest
+MainActivityTest	tests/src/hongbosb/tbdemo/MainActivityTest.java	/^public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {$/;"	c
+MemoryCache	src/hongbosb/tbdemo/ImageLoader.java	/^    class MemoryCache {$/;"	c	class:ImageLoader
+R	gen/hongbosb/tbdemo/R.java	/^public final class R {$/;"	c
+SERVER_IP	src/hongbosb/tbdemo/Config.java	/^    static public final String SERVER_IP = "192.168.1.104";$/;"	f	class:Config
+SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
+SessionLoad	tests/Session.vim	/^let SessionLoad = 1$/;"	v
+TAG	src/hongbosb/tbdemo/ImageLoader.java	/^    static public final String TAG = "ImageLoader";$/;"	f	class:ImageLoader
+TAG	src/hongbosb/tbdemo/MainActivity.java	/^    static public final String TAG = "MainActivity";$/;"	f	class:MainActivity
+Utils	src/hongbosb/tbdemo/Utils.java	/^class Utils {$/;"	c
+[%	Session.vim	/^vmap [% [%m'gv``$/;"	m
+[%	tests/Session.vim	/^vmap [% [%m'gv``$/;"	m
+]%	Session.vim	/^vmap ]% ]%m'gv``$/;"	m
+]%	tests/Session.vim	/^vmap ]% ]%m'gv``$/;"	m
+a%	Session.vim	/^vmap a% [%v]%$/;"	m
+a%	tests/Session.vim	/^vmap a% [%v]%$/;"	m
+app_name	gen/hongbosb/tbdemo/R.java	/^        public static final int app_name=0x7f030000;$/;"	f	class:R.string
+attr	gen/hongbosb/tbdemo/R.java	/^    public static final class attr {$/;"	c	class:R
+copyStream	src/hongbosb/tbdemo/Utils.java	/^    public static void copyStream(InputStream in, OutputStream out) {$/;"	m	class:Utils
+flow_item	gen/hongbosb/tbdemo/R.java	/^        public static final int flow_item=0x7f020000;$/;"	f	class:R.layout
+get	src/hongbosb/tbdemo/ImageLoader.java	/^        private Bitmap get(String url) {$/;"	m	class:ImageLoader.MemoryCache	file:
+getBitmapFromWeb	src/hongbosb/tbdemo/ImageLoader.java	/^        private Bitmap getBitmapFromWeb(String url) {$/;"	m	class:ImageLoader.LoadHandler	file:
+getCount	src/hongbosb/tbdemo/LazyAdapter.java	/^    public int getCount() {$/;"	m	class:LazyAdapter
+getCount	src/hongbosb/tbdemo/MainActivity.java	/^        public int getCount() {$/;"	m	class:MainActivity.FlowAdapter
+getFile	src/hongbosb/tbdemo/FileCache.java	/^    public static File getFile(String url) {$/;"	m	class:FileCache
+getImageUrls	src/hongbosb/tbdemo/JsonParser.java	/^    public String[] getImageUrls() {$/;"	m	class:JsonParser
+getItem	src/hongbosb/tbdemo/LazyAdapter.java	/^    public Object getItem(int pos) {$/;"	m	class:LazyAdapter
+getItem	src/hongbosb/tbdemo/MainActivity.java	/^        public Object getItem(int pos) {$/;"	m	class:MainActivity.FlowAdapter
+getItemId	src/hongbosb/tbdemo/LazyAdapter.java	/^    public long getItemId(int pos) {$/;"	m	class:LazyAdapter
+getItemId	src/hongbosb/tbdemo/MainActivity.java	/^        public long getItemId(int pos) {$/;"	m	class:MainActivity.FlowAdapter
+getListView	src/hongbosb/tbdemo/MainActivity.java	/^    public ListView getListView() {$/;"	m	class:MainActivity
+getView	src/hongbosb/tbdemo/LazyAdapter.java	/^    public View getView(int pos, View convertView, ViewGroup parent) {$/;"	m	class:LazyAdapter
+getView	src/hongbosb/tbdemo/MainActivity.java	/^        public View getView(int pos, View convertView, ViewGroup parent) {$/;"	m	class:MainActivity.FlowAdapter
+gx	Session.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+gx	tests/Session.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+hongbosb.tbdemo	gen/hongbosb/tbdemo/BuildConfig.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo	gen/hongbosb/tbdemo/R.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo	src/hongbosb/tbdemo/Config.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo	src/hongbosb/tbdemo/FileCache.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo	src/hongbosb/tbdemo/ImageLoader.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo	src/hongbosb/tbdemo/JsonParser.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo	src/hongbosb/tbdemo/LazyAdapter.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo	src/hongbosb/tbdemo/MainActivity.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo	src/hongbosb/tbdemo/Utils.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo	tests/src/hongbosb/tbdemo/MainActivityTest.java	/^package hongbosb.tbdemo;$/;"	p
+hongbosb.tbdemo.tests	tests/gen/hongbosb/tbdemo/tests/BuildConfig.java	/^package hongbosb.tbdemo.tests;$/;"	p
+id	gen/hongbosb/tbdemo/R.java	/^    public static final class id {$/;"	c	class:R
+image	gen/hongbosb/tbdemo/R.java	/^        public static final int image=0x7f040000;$/;"	f	class:R.id
+layout	gen/hongbosb/tbdemo/R.java	/^    public static final class layout {$/;"	c	class:R
+list	gen/hongbosb/tbdemo/R.java	/^        public static final int list=0x7f040001;$/;"	f	class:R.id
+loadContent	src/hongbosb/tbdemo/MainActivity.java	/^    private String loadContent() {$/;"	m	class:MainActivity	file:
+loadImage	src/hongbosb/tbdemo/ImageLoader.java	/^    public void loadImage(ImageView image, String url) {$/;"	m	class:ImageLoader
+loadJsonData	src/hongbosb/tbdemo/MainActivity.java	/^    private void loadJsonData() {$/;"	m	class:MainActivity	file:
+mActivity	src/hongbosb/tbdemo/ImageLoader.java	/^    Activity mActivity;$/;"	f	class:ImageLoader
+mActivity	src/hongbosb/tbdemo/LazyAdapter.java	/^    Activity mActivity;$/;"	f	class:LazyAdapter
+mAdapter	src/hongbosb/tbdemo/MainActivity.java	/^    private FlowAdapter mAdapter;$/;"	f	class:MainActivity	file:
+mCache	src/hongbosb/tbdemo/ImageLoader.java	/^        ConcurrentHashMap<String, SoftReference<Bitmap>> mCache = new ConcurrentHashMap<String, SoftReference<Bitmap>>();$/;"	f	class:ImageLoader.MemoryCache
+mCache	src/hongbosb/tbdemo/ImageLoader.java	/^    MemoryCache mCache;$/;"	f	class:ImageLoader
+mImage	src/hongbosb/tbdemo/ImageLoader.java	/^        ImageView mImage;$/;"	f	class:ImageLoader.LoadHandler
+mImageLoader	src/hongbosb/tbdemo/MainActivity.java	/^    private ImageLoader mImageLoader;$/;"	f	class:MainActivity	file:
+mImageUrls	src/hongbosb/tbdemo/MainActivity.java	/^    private String[] mImageUrls;$/;"	f	class:MainActivity	file:
+mLoader	src/hongbosb/tbdemo/LazyAdapter.java	/^    ImageLoader mLoader;$/;"	f	class:LazyAdapter
+mPendingMap	src/hongbosb/tbdemo/ImageLoader.java	/^    ConcurrentHashMap<ImageView, String> mPendingMap = new ConcurrentHashMap<ImageView, String>();$/;"	f	class:ImageLoader
+mServices	src/hongbosb/tbdemo/ImageLoader.java	/^    ExecutorService mServices;$/;"	f	class:ImageLoader
+mStrs	src/hongbosb/tbdemo/LazyAdapter.java	/^    String[] mStrs;$/;"	f	class:LazyAdapter
+mTokener	src/hongbosb/tbdemo/JsonParser.java	/^    private JSONTokener mTokener ;$/;"	f	class:JsonParser	file:
+mUrl	src/hongbosb/tbdemo/ImageLoader.java	/^        String mUrl; $/;"	f	class:ImageLoader.LoadHandler
+main	gen/hongbosb/tbdemo/R.java	/^        public static final int main=0x7f020001;$/;"	f	class:R.layout
+onCreate	src/hongbosb/tbdemo/MainActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:MainActivity
+put	src/hongbosb/tbdemo/ImageLoader.java	/^        private void put(String url, Bitmap bitmap) {$/;"	m	class:ImageLoader.MemoryCache	file:
+run	src/hongbosb/tbdemo/ImageLoader.java	/^        public void run() {$/;"	m	class:ImageLoader.LoadHandler
+s:cpo_save	Session.vim	/^let s:cpo_save=&cpo$/;"	v
+s:cpo_save	tests/Session.vim	/^let s:cpo_save=&cpo$/;"	v
+s:l	Session.vim	/^let s:l = 8 - ((7 * winheight(0) + 20) \/ 41)$/;"	v
+s:l	tests/Session.vim	/^let s:l = 104 - ((42 * winheight(0) + 24) \/ 49)$/;"	v
+s:so_save	Session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:so_save	tests/Session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:sx	tests/Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+s:wipebuf	tests/Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+string	gen/hongbosb/tbdemo/R.java	/^    public static final class string {$/;"	c	class:R
+zt	Session.vim	/^normal! zt$/;"	m
+zt	tests/Session.vim	/^normal! zt$/;"	m
+ê	Session.vim	/^nmap ê mz:m+$/;"	m
+ê	Session.vim	/^vmap ê :m'>+$/;"	m
+ê	tests/Session.vim	/^nmap ê mz:m+$/;"	m
+ê	tests/Session.vim	/^vmap ê :m'>+$/;"	m
+ë	Session.vim	/^nmap ë mz:m-2$/;"	m
+ë	Session.vim	/^vmap ë :m'<-2$/;"	m
+ë	tests/Session.vim	/^nmap ë mz:m-2$/;"	m
+ë	tests/Session.vim	/^vmap ë :m'<-2$/;"	m
